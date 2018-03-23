@@ -1,0 +1,30 @@
+
+# Safe files - used for extra files that are temporarily invisible to versioning
+**/safe_*
+**/safe/*
+
+# Patch files - new / improved versions that will be applied after rebase origin/master
+**/patch_*
+
+# Similar to patch or safe, but a newer version
+**/new_*
+
+# Backups
+*_back*
+
+# Misc folders for libraries ...
+**/vendor/*
+**/lib/*
+static/*
+
+assets/*
+
+**/experimental/*
+**/logs/*
+
+# Keep a separate <repo-name>-extra folder or put it here in root
+# extra/*
+
+## Ignore py
+__pycache__
+.cache
