@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reveal Test</title>
+</head>
+<body>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/reveal.min.css" />
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="safe_export_style.css" />
+
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/theme/beige.min.css" /> -->
+
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/theme/black.min.css" /> -->
+
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/theme/white.min.css" /> -->
+
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/theme/simple.min.css" /> -->
+
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/theme/sky.min.css" /> -->
+
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/theme/league.min.css" /> -->
+
+
+
+
+<div class="theme-font-montserrat theme-color-white-blue" style="width: 100%; height: 100%;">
+	<div class="reveal">
+		<div class="slides">
+			<section data-background-color="#444444">
+				<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 250px; height: auto;">
+					<div class="sl-block-content" style="color: rgb(255, 217, 102); z-index: 10;">
+						<h1>cs-platform</h1>
+					</div>
+				</div>
+				<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 500px; height: 300px; left: 300px; top: 367px;">
+					<div class="sl-block-content" style="z-index: 12;">
+						<pre><code>def code():
+	this is my code #yeah</code></pre>
+					</div>
+				</div>
+			</section>
+			<section data-background-color="#444444">
+				<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 43px; height: auto;">
+					<div class="sl-block-content" style="color: rgb(255, 217, 102); z-index: 11;">
+						<h1>Test</h1>
+					</div>
+				</div>
+				<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 80px; top: 241px;">
+					<div class="sl-block-content" style="z-index: 12; color: rgb(255, 255, 255);">
+						<p>Even more text</p>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+</div>
+
+<!-- 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/theme/solarized.min.css" /> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/css/zenburn.min.css" />
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/js/head.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/js/reveal.min.js"></script>
+
+<script>
+//run reveal.js
+Reveal.initialize({
+	// controls: true,
+	// progress: true,
+	// theme: Reveal.getQueryHash().theme || 'moon',
+	// transition: Reveal.getQueryHash().transition || 'slide',
+	dependencies: [
+		{ src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+		{ src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/highlight/highlight.min.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+
+		// { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+		// { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+		// { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+		// { src: 'plugin/search/search.js', async: true },
+		// { src: 'plugin/zoom-js/zoom.js', async: true },
+		// { src: 'plugin/notes/notes.js', async: true }
+	 ],
+
+	width: 960,
+	height: 700,
+	transition: "slide",
+	backgroundTransition: "slide",
+	center: false
+});
+</script>
+
+</body>
+</html>
